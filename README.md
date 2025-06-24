@@ -2,7 +2,8 @@
 <h1>Simple Counter Syste,</h1>
 <h2>React-Redux Install Use This Command</h2>
 
-```js Redux Toolkit Install
+<h3>Redux Toolkit Install</h3>
+```js
 npm install @reduxjs/toolkit react-redux
 ```
 
@@ -22,12 +23,12 @@ function Counter() {
 
 export default Counter
 ```
-
+```js
 src
     components
               CounterActions.jsx
-
 ```
+```js
 import React from 'react'
 import { useDispatch } from 'react-redux'
 import { increment,decrement,incrementByAmount } from '../store/features/counterSlice';
