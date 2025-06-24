@@ -9,7 +9,7 @@ npm install @reduxjs/toolkit react-redux
 src
     components
               Counter.jsx
-```
+```js
 import React from 'react'
 import { useSelector } from 'react-redux'
 
