@@ -2,7 +2,7 @@
 <h1>Simple Counter Syste,</h1>
 <h2>React-Redux Install Use This Command</h2>
 
-``` Redux Toolkit Install
+```js Redux Toolkit Install
 npm install @reduxjs/toolkit react-redux
 ```
 
