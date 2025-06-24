@@ -1,5 +1,5 @@
 # React-Redux and useContext
-<h1>Simple Counter Syste,</h1>
+<h1>Simple Counter System,</h1>
 <h2>React-Redux Install Use This Command</h2>
 
 <h3>Redux Toolkit Install</h3>
