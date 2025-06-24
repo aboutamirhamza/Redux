@@ -1,8 +1,15 @@
+import Button from "./components/Button"
+import MainSection from "./components/MainSection"
+import { ThemeProvider } from "./context/ThemeContext"
+
 function App() {
 
   return (
     <>
-      <div>Hello World</div>
+      <ThemeProvider>
+        <Button />
+        <MainSection />
+      </ThemeProvider>
     </>
   )
 }
