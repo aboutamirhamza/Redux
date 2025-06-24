@@ -3,13 +3,17 @@
 <h2>React-Redux Install Use This Command</h2>
 
 <h3>Redux Toolkit Install</h3>
+
 ```js
 npm install @reduxjs/toolkit react-redux
 ```
 
+```
 src
     components
               Counter.jsx
+```
+
 ```js
 import React from 'react'
 import { useSelector } from 'react-redux'
@@ -23,11 +27,13 @@ function Counter() {
 
 export default Counter
 ```
-```js
+
+```
 src
     components
               CounterActions.jsx
 ```
+
 ```js
 import React from 'react'
 import { useDispatch } from 'react-redux'
@@ -47,11 +53,13 @@ function CounterActions() {
 export default CounterActions
 ```
 
+```
 src
     store
           store.js
-
 ```
+
+```js
 import { configureStore } from "@reduxjs/toolkit";
 import counterReducer from "./features/counterSlice.js";
 
@@ -62,11 +70,14 @@ export const store = configureStore({
 })
 ```
 
+```
 src
     store
           features
                   counterSlice.js
 ```
+
+```js
 import { createSlice } from "@reduxjs/toolkit";
 
 const counterSlice = createSlice({
@@ -92,13 +103,13 @@ export default counterSlice.reducer;
 ```
 
 main.jsx import this
-```
+```js
 import { Provider } from 'react-redux'
 import {store} from './store/store.js'
 ```
 
 main.jsx
-```
+```js
 <Provider store={store}>
     <App />
 </Provider>
